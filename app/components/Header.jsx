@@ -11,7 +11,7 @@ const Header = () => {
       whileInView={{scale: 1}}
       transition={{duration: 0.8, type: 'spring', stiffness: 100}}
       >
-        <Image src={assets.profile_img} alt='' className='rounded-full w-32'/>
+        <Image src={assets.profile_img} alt='' className='rounded-full w-45'/>
       </motion.div>
       <motion.h3 
       initial={{y: -20, opacity: 0}}
@@ -50,6 +50,15 @@ const Header = () => {
             href="/RinDawsonResume.pdf" download 
             className='px-10 py-3 border rounded-full border-none flex items-center gap-2 text-white bg-rose-600'>
                 my resume <Image src={assets.download_icon} alt='' className='w-4'/></motion.a>
+
+            <motion.a 
+            initial={{y: 30, opacity: 0}}
+            whileInView={{y: 0, opacity: 1}}
+            transition={{duration: 0.6, delay: 1.4}}
+            href="https://github.com/rindawson"
+            className='px-10 py-3 border border-none rounded-full bg-amber-500 text-white flex items-center gap-2'
+            >My Github <Image src={assets.right_arrow_white} alt='' className='w-4'/></motion.a>
+
         </div>
     </div>
   )

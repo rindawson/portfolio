@@ -32,7 +32,7 @@ const Navbar = () => {
 
       <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`}>
         <a href="#top">
-            <Image src={assets.logo} alt='' className='w-28 alt="" cursor-pointer mr-14'/>
+            <Image src={assets.logo} alt='' className='w-48 alt="" cursor-pointer mr-14'/>
         </a>
 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"} `}>
@@ -44,7 +44,7 @@ const Navbar = () => {
 
         <div className='flex items-center gap-4'>
 
-            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4'>Contact 
+            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 bg-purple-800 text-white'>Contact 
             <Image src={assets.arrow_icon} alt="" className='w-3'/></a>
 
             <button className='block md:hidden ml-3' onClick={openMenu}>

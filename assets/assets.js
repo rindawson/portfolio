@@ -78,24 +78,22 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Food Ordering App',
+        description: '',
+        bgImage: '/FoodApp.png',
+        link:'https://github.com/rindawson/path2tech_capstone'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Weather App',
+        description: '',
+        bgImage: '/WeatherApp.png',
+        link: ''
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Book Store App',
+        description: '',
+        bgImage: '/BookApp.png',
+        link: ''
     },
 ]
 
